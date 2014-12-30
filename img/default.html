@@ -7,16 +7,28 @@
     <link href="css/bootstrap.css" rel="stylesheet">
     <link href="css/bootstrap-responsive.css" rel="stylesheet">
     <link href="css/font-awesome.css" rel="stylesheet">
-    <link href="css/jenny-sivapalan.css" rel="stylesheet">
-    <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
-    <link rel="icon" type="image/x-icon" href="img/favicon.ico">
+    <style type="text/css">
+      body {
+        padding-top: 20px;
+        padding-bottom: 40px;
+      }
+
+      /* Custom container */
+      .container-narrow {
+        margin: 0 auto;
+        max-width: 700px;
+      }
+      .container-narrow > hr {
+        margin: 30px 0;
+      }
+    </style>
   </head>
   <body>
     <div class="container-narrow">
     
       <div class="masthead">
         <ul class="nav nav-pills pull-right">
-          <li><a href="http://jennysivapalan.com/blog">Blog</a></li>
+          <li><a href="http://blogs.jennysivapalan.com" target="blank">Blog</a></li>
           <li><a href="https://github.com/jennysivapalan" target="blank">Github</i></a>
           <li><a href="https://twitter.com/jenny_sivapalan" target="blank">Twitter</i></a></li>
         </ul>
@@ -27,7 +39,7 @@
       <p>
         I am a software developer working at <a href="http://www.theguardian.com/uk">The Guardian</a>. I tech lead a team developing the Content API which has helped the Guardian to expand on to many platforms. It's also been a useful tool for developers to hack together ideas too.
 
-        It's an exciting organisation to work for and I have recently started a <a href="http://jennysivapalan.com/blog">blog</a> to document some of the things I have learnt.
+        It's an exciting organisation to work for and I have recently started a <a href="http://blogs.jennysivapalan.com/">blog</a> to document some of the things I have learnt.
       </p>
       
       <p> 
@@ -51,8 +63,8 @@
         <div class="span6">
           <h5>My recent blog posts</h5>
           <ul>
-            <li><a href="http://jennysivapalan.com/blog/monitoring-alerting-and-getting-the-right-balance.html">Monitoring, alerting and getting the right balance</a>
-            <li><a href="http://jennysivapalan.com/blog/300-seconds.html">300 Seconds</a></li>  
+            <li><a href="http://blogs.jennysivapalan.com/devops/monitoring-alerting-and-getting-the-balance/">Monitoring, alerting and getting the right balance</a>
+            <li><a href="http://blogs.jennysivapalan.com/tech-events/300-seconds/">300 Seconds</a></li>  
           </ul>  
           </div>
       </div>
@@ -61,6 +73,21 @@
     <hr>
 
     </div> 
+    
+    <!-- Piwik --> 
+     <script type="text/javascript">
+      var _paq = _paq || [];
+     _paq.push(["trackPageView"]);
+     _paq.push(["enableLinkTracking"]);
 
+    (function() {
+      var u=(("https:" == document.location.protocol) ? "https" : "http") + "://analytics.jennysivapalan.com/analytics/";
+      _paq.push(["setTrackerUrl", u+"piwik.php"]);
+      _paq.push(["setSiteId", "2"]);
+      var d=document, g=d.createElement("script"), s=d.getElementsByTagName("script")[0]; g.type="text/javascript";
+      g.defer=true; g.async=true; g.src=u+"piwik.js"; s.parentNode.insertBefore(g,s);
+    })();
+    </script>
+   <!-- End Piwik Code -->
   </body>
 </html>
