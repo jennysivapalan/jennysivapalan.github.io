@@ -4,7 +4,9 @@ Specific to site
 body {
 	padding-top: 20px;
     padding-bottom: 40px;
-    font-family: 'Open Sans', serif;
+    font-family: "Lucida Console", Monaco, monospace;
+    font-size: 10pt;	
+;
 }
 
 .container-narrow {
